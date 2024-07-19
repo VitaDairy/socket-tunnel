@@ -1,0 +1,7 @@
+services:
+  st:
+    container_name: socket-tunnel
+    restart: always
+    build: .
+    ports:
+      - "3105:3000"

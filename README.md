@@ -17,13 +17,13 @@ npm install -g git+https://github.com/VitaDairy/socket-tunnel.git
 ### short way
 
 ```sh
-st --sub xxx.st -p 3000 # https://xxx.st.lbtvip.pro
+st --sub xxx.st -p 3000 # https://xxx.st.vitadairy.dev
 ```
 
 ### full script
 
 ```sh
-st --server https://st.lbtvip.pro --subdomain xxx.st --hostname 127.0.0.1 --port 3000 # https://xxx.st.lbtvip.pro
+st --server https://st.vitadairy.dev --subdomain xxx.st --hostname 127.0.0.1 --port 3000 # https://xxx.st.vitadairy.dev
 ```
 
 # socket-tunnel
